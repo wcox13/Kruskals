@@ -20,5 +20,5 @@ points.  Similarly, dimension 3 will use arbitrary points in the unit cube, and 
 4 will use arbitrary points in the unit hyper-cube.
 
 ## Notes
-Before running, make sure that you have the latest JDK and JRE installed. See `Report.pdf`
+Before running, make sure that you have the latest JDK and JRE [installed](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html). See `Report.pdf`
 for a detailed study.
