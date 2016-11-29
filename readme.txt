@@ -11,3 +11,5 @@ dimension of zero will choose edge weights at random.  A dimension of 2 will cho
 points in the unit square, and the edge weights will be computed as the Euclidean distance
 between points.  Similarly, dimension 3 will use arbitrary points in the unit cube, and 
 dimension 4 will use arbitrary points in the unit hyper-cube.
+
+See Report.pdf for a detailed study.
