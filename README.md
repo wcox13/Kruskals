@@ -1,4 +1,4 @@
-# Kruskals
+# Kruskals Algorithm
 Efficiently determines the total weight of a minimum spanning tree using Kruskal's algorithm.
 
 ## Background
@@ -22,6 +22,10 @@ zero will choose edge weights at random.  A dimension of 2 will choose random po
 the unit square, and the edge weights will be computed as the Euclidean distance between 
 points.  Similarly, dimension 3 will use arbitrary points in the unit cube, and dimension 
 4 will use arbitrary points in the unit hyper-cube.
+
+`numpoints` should of course be greater than 2, and `numtrials` should be reasonably small
+(unless you have all day!).  Note that there is no input validation, since this is merely a
+algorithm study; the end-user is, well, me :)
 
 ## Notes
 Before running, make sure that you have the latest JDK and JRE [installed](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html). See `Report.pdf`
