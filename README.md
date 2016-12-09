@@ -7,11 +7,15 @@ Kruskal's Algorithm.  It generates complete, undirected graphs on an arbitrary n
 vertices, with random edge weights.
 
 ## Usage
-To try it out, type 
+To try it out, download or clone the directory and navigate to it in your terminal.  Type
 
-`./randmst 0 [numpoints] [numtrials] [dimension]`
+`make`
 
-at the command line. `0` should be left as-is, `numpoints` is the number of nodes in the random graph to 
+then type
+
+`java randmst 0 [numpoints] [numtrials] [dimension]`
+
+`0` should be left as-is, `numpoints` is the number of nodes in the random graph to 
 be generated, and `numtrials` is the number of trials to run. The output is the average 
 weight over all trials.  Dimension should be a member of `[0, 2, 3, 4]`.  A dimension of 
 zero will choose edge weights at random.  A dimension of 2 will choose random points in 
